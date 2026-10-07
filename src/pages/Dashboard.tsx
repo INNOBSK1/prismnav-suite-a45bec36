@@ -5,10 +5,10 @@ import { useLanguage } from "@/i18n/LanguageContext";
 
 const siteCards = [
   { id: "plant-help", icon: Leaf, titleKey: "Plant Help", descKey: "sitePlantHelpDesc" as const },
-  { id: "nml-ani", icon: Dog, titleKey: "NML Ani", descKey: "siteAniDesc" as const },
+  { id: "fbms-ani", icon: Dog, titleKey: "FBMS Ani", descKey: "siteAniDesc" as const },
   { id: "farm-tracker", icon: Tractor, titleKey: "Farm Tracker", descKey: "siteFarmTrackerDesc" as const },
-  { id: "nml-store", icon: Store, titleKey: "NML Store", descKey: "siteStoreDesc" as const },
-  { id: "nml-blog", icon: BookOpen, titleKey: "NML Blog", descKey: "siteBlogDesc" as const },
+  { id: "fbms-store", icon: Store, titleKey: "FBMS Store", descKey: "siteStoreDesc" as const },
+  { id: "fbms-blog", icon: BookOpen, titleKey: "FBMS Blog", descKey: "siteBlogDesc" as const },
 ];
 
 export default function Dashboard() {
@@ -18,7 +18,7 @@ export default function Dashboard() {
   return (
     <div className="container py-10 space-y-8">
       <header className="animate-in text-center">
-        <h1 className="text-4xl font-semibold mb-2 text-balance text-primary">Welcome to NIMALUNDA</h1>
+        <h1 className="text-4xl font-semibold mb-2 text-balance text-primary">Welcome to FBMS</h1>
         <p className="text-lg italic text-muted-foreground">Digitally Ensuring Prosperity</p>
       </header>
 

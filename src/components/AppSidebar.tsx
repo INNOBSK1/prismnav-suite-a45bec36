@@ -8,11 +8,11 @@ import {
 } from "@/components/ui/sidebar";
 
 const siteLinks = [
-  { title: "Plant Help", url: "/site/plant-help", icon: Leaf, externalUrl: "https://planthelp.netlify.app/" },
-  { title: "NML Ani", url: "/site/nml-ani", icon: Dog, externalUrl: "https://nmlani.netlify.app/" },
-  { title: "Farm Tracker", url: "/site/farm-tracker", icon: Tractor, externalUrl: "https://nmlfarmtracker.netlify.app/" },
-  { title: "NML Store", url: "/site/nml-store", icon: Store, externalUrl: "https://nmlstore.netlify.app/" },
-  { title: "NML Blog", url: "/site/nml-blog", icon: BookOpen, externalUrl: "https://nmlblog.netlify.app/" },
+  { title: "Plant Help", url: "https://planthelp.netlify.app/", icon: Leaf },
+  { title: "NML Ani", url: "https://nmlani.netlify.app/", icon: Dog },
+  { title: "Farm Tracker", url: "https://nmlfarmtracker.netlify.app/", icon: Tractor },
+  { title: "NML Store", url: "https://nmlstore.netlify.app/", icon: Store },
+  { title: "NML Blog", url: "https://nmlblog.netlify.app/", icon: BookOpen },
 ];
 
 export function AppSidebar() {

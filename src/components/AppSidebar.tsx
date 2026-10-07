@@ -9,10 +9,10 @@ import {
 
 const siteLinks = [
   { title: "Plant Help", url: "https://planthelp.netlify.app/", icon: Leaf },
-  { title: "NML Ani", url: "https://nmlani.netlify.app/", icon: Dog },
-  { title: "Farm Tracker", url: "https://nmlfarmtracker.netlify.app/", icon: Tractor },
-  { title: "NML Store", url: "https://nmlstore.netlify.app/", icon: Store },
-  { title: "NML Blog", url: "https://nmlblog.netlify.app/", icon: BookOpen },
+  { title: "NML Ani", url: "https://fbmsani.netlify.app/", icon: Dog },
+  { title: "Farm Tracker", url: "https://fbmsfarmtracker.netlify.app/", icon: Tractor },
+  { title: "NML Store", url: "https://fbmsstore.netlify.app/", icon: Store },
+  { title: "NML Blog", url: "https://fbmsblog.netlify.app/", icon: BookOpen },
 ];
 
 export function AppSidebar() {
